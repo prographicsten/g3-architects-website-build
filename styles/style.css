@@ -205,6 +205,15 @@ li > a {
     .brand_img img {
         margin-top: 30px;
     }
+
+    .our_features {
+        flex-direction: column-reverse;
+        padding: 50px 10px;
+    }
+
+    .our_images img {
+        width: 100%;
+    }
 }
 
 /* Tablet or medium screen devices */
