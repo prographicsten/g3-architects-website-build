@@ -111,6 +111,43 @@ li > a {
     margin-bottom: 30px;
 }
 
+/* our features area start */
+.our_features {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 240px;
+}
+
+.our_images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.our_images img {
+    /* width: 100%; */
+    width: 260px;
+}
+
+.quick_list {
+    color: #727272;
+    font-weight: 500;
+}
+
+.features {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.our_content p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.our_content .btn {
+    margin-top: 30px;
+}
 
 
 
