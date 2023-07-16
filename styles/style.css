@@ -128,17 +128,20 @@ li > a {
     }
 
     .header_area h2 {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         font-size: 35px;
     }
 
     .nav_area ul {
-        flex-direction: column;
         text-align: center;
     }
 
     .nav_area ul li {
-        margin: 10px 0px;
+        margin: 0px 10px;
+    }
+
+    li > a {
+        font-size: 16px;
     }
 
     .brand_area {
@@ -147,8 +150,8 @@ li > a {
     }
     
     .brand_content h1 {
-        font-size: 35px;
-        line-height: 45px;
+        font-size: 33px;
+        line-height: 42px;
     }
 
     p.para {
