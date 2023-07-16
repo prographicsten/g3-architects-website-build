@@ -85,6 +85,7 @@ li > a {
     text-align: center;
     background: rgba(255, 144, 14, 0.10);
     padding: 0px 240px;
+    padding-top: 50px;
 }
 
 .brand_content {
