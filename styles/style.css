@@ -253,4 +253,17 @@ li > a {
     .brand_img img {
         margin-top: 35px;
     }
+
+    .our_features {
+        flex-direction: column-reverse;
+        padding: 50px 40px;
+    }
+
+    .our_images {
+        width: 100%;
+    }
+
+    .our_images img {
+        width: 100%;
+    }
 }
