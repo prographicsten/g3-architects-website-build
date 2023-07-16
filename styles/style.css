@@ -140,6 +140,30 @@ li > a {
     .nav_area ul li {
         margin: 10px 0px;
     }
+
+    .brand_area {
+        padding: 0px 20px;
+        padding-top: 20px;
+    }
+    
+    .brand_content h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    p.para {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 14px 25px;
+    }
+
+    .brand_img img {
+        margin-top: 30px;
+    }
 }
 
 /* Tablet or medium screen devices */
