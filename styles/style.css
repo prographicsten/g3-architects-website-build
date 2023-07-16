@@ -182,4 +182,28 @@ li > a {
     .nav_area ul li:nth-child(4) {
         margin-right: 0px;
     }
+
+    .brand_area {
+        padding: 0px 40px;
+    }
+
+    .brand_content h1 {
+        font-size: 50px;
+        line-height: 60px;
+        padding-top: 20px;
+    }
+
+    p.para {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 15px 25px;
+    }
+
+    .brand_img img {
+        margin-top: 35px;
+    }
 }
