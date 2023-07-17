@@ -152,7 +152,7 @@ li > a {
 /* enjoy features area start */
 .enjoy_features {
     display: flex;
-    padding: 50px 240px;
+    padding: 50px 240px 10px 240px;
     justify-content: space-between;
     gap: 50px;
     overflow: hidden;
@@ -220,6 +220,40 @@ li > a {
     font-weight: 500;
 }
 
+/* some facts area start */
+.some_facts {
+    padding: 20px 240px;
+}
+
+.some_content {
+    margin-bottom: 50px;
+}
+
+.some_content p.para {
+    width: 542px;
+}
+
+.some_cards {
+    display: flex;
+    justify-content: space-around
+}
+
+.some_card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    width: 150px;
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.some_img {
+    width: 45px;
+    height: 45px;
+}
+
+.some_card h4 {
+    color: #727272;
+} 
 
 
 
@@ -253,7 +287,7 @@ li > a {
     }
 
     .brand_area {
-        padding: 0px 20px;
+        padding: 0px 10px;
         padding-top: 20px;
     }
     
@@ -326,6 +360,33 @@ li > a {
 
     .experience_content h1 {
         font-size: 45px;
+    }
+
+    .some_facts {
+        padding: 20px 10px;
+    }
+
+    .some_content_title {
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+
+    .some_content p.para {
+        width: 100%;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .some_cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .some_card {
+        width: 50%;
+        padding: 35px 35px;
+        margin-bottom: 20px;
     }
 }
 
