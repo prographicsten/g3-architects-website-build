@@ -141,7 +141,7 @@ li > a {
 }
 
 .our_content p {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 10px;
 }
 
@@ -178,6 +178,7 @@ li > a {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
+    margin-bottom: 15px;
 }
 
 .enjoy_box .enjoy_sub_title {
@@ -262,7 +263,11 @@ li > a {
 
 .our_contents {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
+}
+
+.our_contents .our_content_title {
+    margin-bottom: 15px;
 }
 
 .our_sponsors_company {
@@ -565,6 +570,11 @@ li > a {
 
     .our_sponsors {
         padding: 50px 40px;
+    }
+    
+    .our_sponsors .our_contents {
+        text-align: center;
+        margin-bottom: 40px;
     }
 
     .our_sponsors_company img {
