@@ -290,7 +290,12 @@ li > a {
     text-align: center;
     padding: 40px 0px;
     border-radius: 8px;
-    background: #FFF4E7;
+    /* background: #FFF4E7; */
+    background-color: rgb(129, 129, 129, 0.50);
+}
+
+.footer_content p.para {
+    color: #424242;
 }
 
 
@@ -449,6 +454,15 @@ li > a {
     h2.our_content_title {
         margin-bottom: 20px;
     }
+
+    .footer_area {
+        padding: 0px 10px;
+        margin-top: 50px;
+    }
+
+    .footer_content {
+        padding: 20px 0px;
+    }
 }
 
 /* Tablet or medium screen devices */
@@ -591,5 +605,14 @@ li > a {
 
     .our_sponsors_company img {
         width: 100px;
+    }
+
+    .footer_area {
+        padding: 0px 40px;
+        margin-top: 0px;
+    }
+
+    .footer_content {
+        padding: 20px 0px;
     }
 }
