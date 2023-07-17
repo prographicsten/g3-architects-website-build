@@ -280,6 +280,18 @@ li > a {
     width: 100px;
 }
 
+/* footer area start */
+.footer_area {
+    padding: 0px 240px;
+    margin-bottom: 50px;
+}
+
+.footer_content {
+    text-align: center;
+    padding: 40px 0px;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
 
 
 
