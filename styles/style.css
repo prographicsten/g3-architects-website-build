@@ -288,9 +288,8 @@ li > a {
 
 .footer_content {
     text-align: center;
-    padding: 40px 0px;
+    padding: 35px 0px;
     border-radius: 8px;
-    /* background: #FFF4E7; */
     background-color: rgb(129, 129, 129, 0.50);
 }
 
@@ -472,7 +471,11 @@ li > a {
     }
 
     .header_area h2 {
-        font-size: 40px;
+        font-size: 35px;
+    }
+
+    li > a {
+        font-size: 16px;
     }
     
     .nav_area ul li:nth-child(4) {
